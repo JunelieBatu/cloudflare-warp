@@ -12,8 +12,6 @@ import time
 
 print ("Copy User ID From : Setting/Advanced/Diagnostics/ID")
 
-print ("By - 6six6") 
-
 referrer = input("WARP+ ID: ")
 
 def genString(stringLength):
@@ -38,7 +36,7 @@ def run():
 
             "warp_enabled": False,
 
-            "tos": datetime.datetime.now().isoformat()[:-3] + "+07:00",
+            "tos": datetime.datetime.now().isoformat()[:-2] + "+08:00",
 
             "type": "Android",
 
